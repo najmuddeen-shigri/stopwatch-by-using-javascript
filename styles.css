@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  margin: 0;
+}
+
+.stop-watch {
+  background-color: black;
+  /* padding: 20psx; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.display-time {
+  /* font-size: 3em; */
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.milisecs{
+  vertical-align: bottom;
+  font-size: 23px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btns {
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(4, 163, 47);
+  color: #ccc;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btns:hover {
+  background-color: rgb(7, 79, 7);
+}
+.btn:nth-child(2){
+  background-color: white;
+  color: #333;
+}
+
+.btn {
+  /* padding: 15px; */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(2, 2, 113);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.split-value {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
